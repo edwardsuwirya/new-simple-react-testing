@@ -1,0 +1,40 @@
+.main-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    height: 10%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.navigation-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content-container {
+    flex: auto;
+}
+
+.button-form {
+    width: 5rem;
+}
+
+.footer-container {
+    height: 3%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+}

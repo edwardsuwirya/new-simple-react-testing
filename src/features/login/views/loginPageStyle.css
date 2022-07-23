@@ -1,0 +1,20 @@
+.login-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+    background-image: linear-gradient(bisque, white);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    width: 25%;
+    gap: 8px;
+    margin-right: 10%;
+    border: solid 2px burlywood;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+
