@@ -12,7 +12,7 @@ const ApiClientFactory = (client) => {
             } else {
                 console.log('Error', e.message);
             }
-            throw e;
+            throw new Error(e);
         }
     }
     const doGet = async ({url = ''}) => {
@@ -27,7 +27,7 @@ const ApiClientFactory = (client) => {
             } else {
                 console.log('Error', e.message);
             }
-            throw e;
+            throw new Error(e);
         }
     }
 
